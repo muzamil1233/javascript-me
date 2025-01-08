@@ -1,4 +1,4 @@
-//if we want to make a object(json) string then  we will do this 
+m//if we want to make a object(json) string then  we will do this 
 var a = {a: "1", b:"2"};
 var b = JSON.stringify(a);
 console.log(b); //op : "{a: "1", b:"2"}";
