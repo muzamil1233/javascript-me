@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id = "search" onchange="betterFunction()">
+    <script>
+        var counter = 0;
+    function getData(){
+        console.log("get data "+ counter++)
+    }
+
+
+    function myDebounce(call, delay){
+        let timer;
+        return  function(...args){
+            if(timer) clearTimeout(timer);
+             timer = setTimeout(()=>{
+               call();
+            },d)
+        }
+
+    }
+     const betterFunction = myDebounce(getData,1000);
+    </script>
+    ->What is Debounce in Javascript?
+    ->Debouncing is a programming pattern or a technique to restrict the calling of a time-consuming
+        function frequently, by delaying the execution of the function until a specified time
+        to avoid unnecessary CPU cycles, and API calls and to improve performance.
+</body>
+</html>

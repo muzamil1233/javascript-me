@@ -1,0 +1,20 @@
+const students=[
+    {name:"Syed Danish",enroll:"6671",marks:"40"},
+    {name:"Muazim Maqbool",enroll:"6655",marks:"39"},
+    {name:"Mezy Jan",enroll:"6631",marks:"42"},
+    {name:"Aabida Farooq",enroll:"6645",marks:"41"},
+    {name:"Danish Gul",enroll:"6644",marks:"37"},
+    {name:"Amir Suahil",enroll:"6656",marks:"48"}
+]; 
+//suppose this data is comming from an API
+//suppose we are given a task to find out list of name and enroll of all the students
+//it should look like this : ["Syed Danish 6671","Muazim Maqbool 6655",....]
+//so, we will be using map() function here
+
+
+
+
+
+const result = students.map((x)=>(
+    console.log(x.name , x.enroll)));
+    console.log(result)

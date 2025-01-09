@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id = "search" oChange = >
+    <button id = "myId" onclick="newFun">hello</button>
+    <script>
+
+
+const myThrottle = (fn,d)=>{
+    return function(...args){
+        document.getElementById("myId").disabled = true;
+        setTimeout(()=>{
+   
+        fn();
+    },d);
+    }
+    
+}
+        const newFunc = myThrottle(()=>{
+            document.getElementById("myId").disabled = false;
+            console.log("user clicked")
+        },5000)
+    </script>
+</body>
+</html>
