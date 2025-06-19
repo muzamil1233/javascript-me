@@ -386,5 +386,8 @@ function validateCart(cart) {
 async function will always return a promise
 we async and await combo to handle callbacks
 
+
+git is a version control and github is  a platform based in which we have to hoisted our platform 
+
          
 
