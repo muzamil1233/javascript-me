@@ -4,7 +4,7 @@ function debounce(func, delay) {
     return function (...args) {
       clearTimeout(timeoutId); // clear previous timer
       timeoutId = setTimeout(() => {
-        func.apply(this, args); // run function after delay
+        func.apply(this, args); // run function after delay  
       }, delay);
     };
   }
