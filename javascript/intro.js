@@ -393,7 +393,13 @@ if we talk about its commands it have various commands like we have git init git
 also added someting new
 =======
 if we talk about its commands it have various commands like we have git init git status git add like in these sector also i have somthing new init.
+<<<<<<< HEAD
 >>>>>>> 589da25 (changes added)
+=======
+
+git is a very important feature
+
+>>>>>>> 6236c42 (added some)
 
          
 
