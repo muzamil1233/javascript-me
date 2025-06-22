@@ -388,7 +388,7 @@ we async and await combo to handle callbacks
 
 
 git is a version control and github is  a platform based in which we have to hoisted our code 
-if we talk about its commands it have various commands like we have git init git status git add .
+if we talk about its commands it have various commands like we have git init git status git add like in these sector .
 
          
 
