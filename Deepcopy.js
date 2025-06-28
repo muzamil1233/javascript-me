@@ -21,3 +21,11 @@ console.log(c); //op : {{a: "1", b:"2}"
         return capval
     }
     makeDeepCopy({name: "muzamil", age :25})
+
+
+
+    for (var i =0 ; i < 3; i++){
+        setTimeout(()=>{
+            console.log(i)
+        },1000)
+    }
